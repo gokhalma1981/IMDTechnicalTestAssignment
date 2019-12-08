@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="IMD Sample Automation Test Suite" duration-ms="124533" started-at="2019-12-08T15:04:24Z" finished-at="2019-12-08T15:06:29Z">
+    <groups>
+    </groups>
+    <test name="IMD Sample Automation Test Cases" duration-ms="124533" started-at="2019-12-08T15:04:24Z" finished-at="2019-12-08T15:06:29Z">
+      <class name="com.imd.qa.testcases.JavaScriptAlertsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.imd.qa.testcases.JavaScriptAlertsPageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="6660" started-at="2019-12-08T23:05:15Z" finished-at="2019-12-08T23:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateJSConfirmOkButtonClickTest()[pri:1, instance:com.imd.qa.testcases.JavaScriptAlertsPageTest@7cd62f43]" name="validateJSConfirmOkButtonClickTest" duration-ms="10301" started-at="2019-12-08T23:05:21Z" finished-at="2019-12-08T23:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateJSConfirmOkButtonClickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.imd.qa.testcases.JavaScriptAlertsPageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="729" started-at="2019-12-08T23:05:32Z" finished-at="2019-12-08T23:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.imd.qa.testcases.JavaScriptAlertsPageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="7966" started-at="2019-12-08T23:05:34Z" finished-at="2019-12-08T23:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateJSPromptCancelButtonClickTest(java.lang.String)[pri:2, instance:com.imd.qa.testcases.JavaScriptAlertsPageTest@7cd62f43]" name="validateJSPromptCancelButtonClickTest" duration-ms="4309" started-at="2019-12-08T23:05:42Z" data-provider="getTestData" finished-at="2019-12-08T23:05:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test JS Prompt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateJSPromptCancelButtonClickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.imd.qa.testcases.JavaScriptAlertsPageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="741" started-at="2019-12-08T23:05:46Z" finished-at="2019-12-08T23:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.imd.qa.testcases.JavaScriptAlertsPageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="7182" started-at="2019-12-08T23:05:47Z" finished-at="2019-12-08T23:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateJSPromptOkButtonClickTest(java.lang.String)[pri:3, instance:com.imd.qa.testcases.JavaScriptAlertsPageTest@7cd62f43]" name="validateJSPromptOkButtonClickTest" duration-ms="8341" started-at="2019-12-08T23:05:54Z" data-provider="getTestData" finished-at="2019-12-08T23:06:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test JS Prompt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateJSPromptOkButtonClickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.imd.qa.testcases.JavaScriptAlertsPageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="752" started-at="2019-12-08T23:06:02Z" finished-at="2019-12-08T23:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.imd.qa.testcases.JavaScriptAlertsPageTest -->
+      <class name="com.imd.qa.testcases.FramePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.imd.qa.testcases.FramePageTest@6093dd95]" name="setUp" is-config="true" duration-ms="9690" started-at="2019-12-08T23:06:17Z" finished-at="2019-12-08T23:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateiFrameEnteredTextTest(java.lang.String)[pri:1, instance:com.imd.qa.testcases.FramePageTest@6093dd95]" name="validateiFrameEnteredTextTest" duration-ms="1430" started-at="2019-12-08T23:06:27Z" data-provider="getTestData" finished-at="2019-12-08T23:06:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I love pizza]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateiFrameEnteredTextTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.imd.qa.testcases.FramePageTest@6093dd95]" name="tearDown" is-config="true" duration-ms="778" started-at="2019-12-08T23:06:28Z" finished-at="2019-12-08T23:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.imd.qa.testcases.FramePageTest -->
+      <class name="com.imd.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.imd.qa.testcases.LoginPageTest@685cb137]" name="setUp" is-config="true" duration-ms="9672" started-at="2019-12-08T23:04:24Z" finished-at="2019-12-08T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.imd.qa.testcases.LoginPageTest@685cb137]" name="loginPageTitleTest" duration-ms="28" started-at="2019-12-08T23:04:34Z" finished-at="2019-12-08T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.imd.qa.testcases.LoginPageTest@685cb137]" name="tearDown" is-config="true" duration-ms="794" started-at="2019-12-08T23:04:34Z" finished-at="2019-12-08T23:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.imd.qa.testcases.LoginPageTest@685cb137]" name="setUp" is-config="true" duration-ms="7984" started-at="2019-12-08T23:04:35Z" finished-at="2019-12-08T23:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginFailureMessageTest()[pri:2, instance:com.imd.qa.testcases.LoginPageTest@685cb137]" name="loginFailureMessageTest" duration-ms="1152" started-at="2019-12-08T23:04:43Z" finished-at="2019-12-08T23:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailureMessageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.imd.qa.testcases.LoginPageTest@685cb137]" name="tearDown" is-config="true" duration-ms="863" started-at="2019-12-08T23:04:44Z" finished-at="2019-12-08T23:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.imd.qa.testcases.LoginPageTest@685cb137]" name="setUp" is-config="true" duration-ms="7453" started-at="2019-12-08T23:04:45Z" finished-at="2019-12-08T23:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginSuccessMessageTest()[pri:3, instance:com.imd.qa.testcases.LoginPageTest@685cb137]" name="loginSuccessMessageTest" duration-ms="1458" started-at="2019-12-08T23:04:52Z" finished-at="2019-12-08T23:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessMessageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.imd.qa.testcases.LoginPageTest@685cb137]" name="tearDown" is-config="true" duration-ms="770" started-at="2019-12-08T23:04:54Z" finished-at="2019-12-08T23:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.imd.qa.testcases.LoginPageTest -->
+      <class name="com.imd.qa.testcases.SecureAreaPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.imd.qa.testcases.SecureAreaPageTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="10020" started-at="2019-12-08T23:04:55Z" finished-at="2019-12-08T23:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="secureAreaPageTitleTest()[pri:1, instance:com.imd.qa.testcases.SecureAreaPageTest@6a41eaa2]" name="secureAreaPageTitleTest" duration-ms="15" started-at="2019-12-08T23:05:05Z" finished-at="2019-12-08T23:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secureAreaPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.imd.qa.testcases.SecureAreaPageTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="763" started-at="2019-12-08T23:05:05Z" finished-at="2019-12-08T23:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.imd.qa.testcases.SecureAreaPageTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="8612" started-at="2019-12-08T23:05:05Z" finished-at="2019-12-08T23:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginSuccessMessageTest()[pri:2, instance:com.imd.qa.testcases.SecureAreaPageTest@6a41eaa2]" name="loginSuccessMessageTest" duration-ms="61" started-at="2019-12-08T23:05:14Z" finished-at="2019-12-08T23:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessMessageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.imd.qa.testcases.SecureAreaPageTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="778" started-at="2019-12-08T23:05:14Z" finished-at="2019-12-08T23:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.imd.qa.testcases.SecureAreaPageTest -->
+      <class name="com.imd.qa.testcases.FileUploadPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.imd.qa.testcases.FileUploadPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="6909" started-at="2019-12-08T23:06:03Z" finished-at="2019-12-08T23:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateFileUploadConfirmMessageTest(java.lang.String)[pri:1, instance:com.imd.qa.testcases.FileUploadPageTest@6d4b1c02]" name="validateFileUploadConfirmMessageTest" duration-ms="6183" started-at="2019-12-08T23:06:10Z" data-provider="getTestData" finished-at="2019-12-08T23:06:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Z_Mahadev\\IMD Technical assignment\\burrito.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFileUploadConfirmMessageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.imd.qa.testcases.FileUploadPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="853" started-at="2019-12-08T23:06:16Z" finished-at="2019-12-08T23:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.imd.qa.testcases.FileUploadPageTest -->
+    </test> <!-- IMD Sample Automation Test Cases -->
+  </suite> <!-- IMD Sample Automation Test Suite -->
+</testng-results>

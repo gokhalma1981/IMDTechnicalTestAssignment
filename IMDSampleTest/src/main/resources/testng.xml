@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IMD Sample Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.imd.qa.util.ExtentReporterNG" />
+	</listeners>
+	
+	<test name="IMD Sample Automation Test Cases">
+		<classes>
+			<class name="com.imd.qa.testcases.LoginPageTest" />
+			<class name="com.imd.qa.testcases.SecureAreaPageTest" />
+			<class name="com.imd.qa.testcases.JavaScriptAlertsPageTest" />
+			<class name="com.imd.qa.testcases.FileUploadPageTest" />
+			<class name="com.imd.qa.testcases.FramePageTest" />
+		</classes>
+	</test>
+	
+</suite> 
